@@ -1,17 +1,26 @@
-# flutter_week14
+# Week 14 Activity: Two-Screen Flutter Static UI
 
-A new Flutter project.
+**Name:** Harvey Pajo
+**Section:** BSIT 3.2
+**Date:** November 20, 2026
+**Course:** PC16 – Mobile Development with Lab
 
-## Getting Started
+## Project Overview
+This project is a Flutter application that demonstrates the creation of a two-screen static user interface based on my Week 2 Figma design. It uses Material Design principles and standard Flutter widgets to replicate the layout.
 
-This project is a starting point for a Flutter application.
+## Features Implemented (Based on Rubric)
+1. **Two Screens:** 
+   - `NewOrderScreen` (Frame 1)
+   - `OrderSummaryScreen` (Frame 2)
+2. **Widget Composition:** Uses `Scaffold`, `AppBar`, `Row`, `Column`, `Expanded`, and `Container` for layouts.
+3. **Stack and Positioned:** The food cards use a `Stack` with a `Positioned` widget to display a red "NEW" badge overlapping the food image (with `clipBehavior: Clip.none`).
+4. **Image Asset:** Uses `Image.asset` to display local images (`burger.png`, `pizza.png`, `iced_tea.png`, `soft_drinks.png`) with `BoxFit.cover`.
+5. **Sizing and Spacing:** Utilizes `Padding`, `SizedBox`, and `Expanded` to ensure a clean layout without overflow on mobile screens.
+6. **ThemeData:** Both screens share a consistent color theme defined in `MaterialApp`.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+1. Make sure you have the Flutter SDK installed.
+2. Open the terminal in the project folder.
+3. Run the following command to get the dependencies:
+   ```bash
+   flutter pub get
