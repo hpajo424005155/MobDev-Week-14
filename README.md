@@ -1,8 +1,11 @@
 # Week 14 Activity: Two-Screen Flutter Static UI
 
 **Name:** Harvey Pajo
+
 **Section:** BSIT 3.2
+
 **Date:** November 20, 2026
+
 **Course:** PC16 – Mobile Development with Lab
 
 ## Project Overview
